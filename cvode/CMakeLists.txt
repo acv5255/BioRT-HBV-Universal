@@ -309,7 +309,7 @@ ENDIF()
 # ---------------------------------------------------------------
 
 OPTION(BUILD_STATIC_LIBS "Build static libraries" ON)
-OPTION(BUILD_SHARED_LIBS "Build shared libraries" ON)
+OPTION(BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
 # Prepare substitution variable SUNDIALS_EXPORT for sundials_config.h
 # When building shared SUNDIALS libraries under Windows, use
@@ -487,7 +487,7 @@ OPTION(Trilinos_ENABLE "Enable Trilinos support" OFF)
 # ---------------------------------------------------------------
 
 # Enable C examples (on by default)
-OPTION(EXAMPLES_ENABLE_C "Build SUNDIALS C examples" ON)
+OPTION(EXAMPLES_ENABLE_C "Build SUNDIALS C examples" OFF)
 
 # C++ examples (off by default, unless Trilinos is enabled)
 SET(DOCSTR "Build C++ examples")
@@ -564,7 +564,7 @@ ENDIF()
 # Enable installing examples by default
 SET(DOCSTR "Install SUNDIALS examples")
 IF(EXAMPLES_ENABLED)
-  OPTION(EXAMPLES_INSTALL "${DOCSTR}" ON)
+  OPTION(EXAMPLES_INSTALL "${DOCSTR}" OFF)
 ELSE()
   FORCE_VARIABLE(EXAMPLES_INSTALL BOOL "${DOCSTR}" OFF)
   HIDE_VARIABLE(EXAMPLES_INSTALL)

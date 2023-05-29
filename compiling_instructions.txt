@@ -1,0 +1,9 @@
+The method that you will use to compile BioRT-HBV depends on your operating system:
+
+Windows:
+Open up a command prompt in this directory and run the following command:
+build_biort_windows.bat
+
+Linux:
+Open up a terminal in this directory and run the following command:
+bash ./build_biort_linux.sh

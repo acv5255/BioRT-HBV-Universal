@@ -3,14 +3,23 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
+#if WIN32
+#include <io.h>
+#include <direct.h>
+#define F_OK 0
+#define access _access
+#else
 #include <unistd.h>
+#include <sy_accesss/stat.h>
+#endif
+
 #include <math.h>
 #include <string.h>
 #include <time.h>
 #include <errno.h>
 #include <stdarg.h>
 #include <float.h>
-#include <sys/stat.h>
 
 // SUNDIAL Header Files
 #include "sundials/sundials_dense.h"        // Prototypes for small dense fcts.

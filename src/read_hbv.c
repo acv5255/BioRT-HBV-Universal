@@ -91,10 +91,10 @@ void ReadHbvResults(const char dir[], int nsub, int *nsteps, int *steps[], subca
             subcatch[ksub].ws[kstep][SNOW] = snow;  // 2021-05-14
             subcatch[ksub].ws[kstep][SM] = sm;
             fscanf(fp, "%lf", &subcatch[ksub].q[kstep][RECHG]);  // Read recharge
-            fscanf(fp, "%*lf %*lf");   // Skip upper and lower zone storages
+            fscanf(fp, "%*f %*f");   // Skip upper and lower zone storages
             fscanf(fp, "%lf %lf %lf", &subcatch[ksub].q[kstep][Q0],
                 &subcatch[ksub].q[kstep][Q1], &subcatch[ksub].q[kstep][Q2]);  // Read Q0, Q1, and Q2
-            fscanf(fp, "%*lf %*lf");   // Skip "Qsim_rain" and "Qsim_snow"
+            fscanf(fp, "%*f %*f");   // Skip "Qsim_rain" and "Qsim_snow"
 
             //Incoming precipitation might become snow or enter the soil zone directly.
             //  Psnow = PRECIP * SFCF (if temp < TT)
