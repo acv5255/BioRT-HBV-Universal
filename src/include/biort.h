@@ -11,7 +11,7 @@
 #define access _access
 #else
 #include <unistd.h>
-#include <sy_accesss/stat.h>
+#include <sys/stat.h>
 #endif
 
 #include <math.h>

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.1.3)
 
 file(GLOB biort_srcs "*.c")
 
@@ -24,8 +24,8 @@ target_include_directories(
 IF(NOT WIN32)
 target_link_directories(
     biort PRIVATE
-    ${BioRT_SOURCE_DIR}/build/cvode/src/cvode/Debug
-    ${BioRT_SOURCE_DIR}/build/cvode/src/nvector/serial/Debug
+    ${BioRT_SOURCE_DIR}/build/cvode/src/cvode
+    ${BioRT_SOURCE_DIR}/build/cvode/src/nvector/serial
 )
 ENDIF()
 

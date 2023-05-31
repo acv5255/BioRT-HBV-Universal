@@ -2,8 +2,8 @@
 
 mkdir build && cd build
 cmake configure ..
-cmake --build . --
+cmake --build . -j 8 --
 cd ..
 mv ./build/src/biort .
 
-echo "BioRT-HBV successfully build"
+echo "BioRT-HBV successfully built"
