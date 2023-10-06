@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cvode/src/sunnonlinsol",
+		"source" : "cvode/src/sunnonlinsol"
+	}
+}

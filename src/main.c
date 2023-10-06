@@ -47,11 +47,10 @@ int main(int argc, char *argv[])
     ReadChem(dir, &ctrl, &rttbl, chemtbl, kintbl);
 
     // Read chemistry initial conditions
-    ReadCini(dir, nsub, chemtbl, &rttbl, subcatch);
+    ReadCini(dir, nsub, chemtbl, &rttbl, &kintbl, subcatch);
 
     // Read time-series precipitation chemistry if defined in chem.txt  2021-05-20
     if (ctrl.precipchem == 1) {
-        //printf("read in time-series precipitation %d", ctrl.precipchem);
         ReadPrecipChem(dir, nsub, &nsteps, &steps, subcatch, rttbl.num_stc, chemtbl, 0);
     }
 

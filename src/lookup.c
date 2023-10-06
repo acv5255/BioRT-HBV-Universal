@@ -248,37 +248,10 @@ void Lookup(FILE *fp, const calib_struct *calib, chemtbl_struct chemtbl[], kintb
         {
             biort_printf(VL_NORMAL, "%-14f", rttbl->dep_kin[j][i]);
         }
+        // double
         biort_printf(VL_NORMAL, " Keq = %-6.2f\n", rttbl->keq_kin[j]);
     }
 
-#if NOT_YET_IMPLEMENTED
-    // Use calibration coefficient to produce new Keq values for 1) CO2, 2) other kinetic reaction
-    double          Cal_PCO2 = 1.0;
-    double          Cal_Keq = 1.0;
-    for (i = 0; i < rttbl->num_akr + rttbl->num_mkr; i++)
-    {
-        rttbl->KeqKinect[i] += (!strcmp(chemtbl[i + rttbl->num_spc + rttbl->num_ads + rttbl->num_cex].name,
-            "'CO2(*g)'")) ? log10(Cal_PCO2) : log10(Cal_Keq);
-    }
-
-    printf("\n Kinetic Mass Matrix (calibrated Keq)! \n");
-    printf("%-15s", " ");
-    for (i = 0; i < rttbl->num_stc; i++)
-    {
-        printf("%-14s", chemtbl[i].name);
-    }
-    printf("\n");
-    for (j = 0; j < rttbl->num_mkr + rttbl->num_akr; j++)
-    {
-        printf(" %-14s", chemtbl[j + rttbl->num_spc + rttbl->num_ads + rttbl->num_cex].name);
-        for (i = 0; i < rttbl->num_stc; i++)
-        {
-            printf("%-14.2f", rttbl->Dep_kinetic[j][i]);
-        }
-        printf(" Keq = %-6.2f\n", rttbl->KeqKinect[j]);
-    }
-    printf("\n");
-#endif
 
     biort_printf(VL_NORMAL, " \n Mass action species type determination (0: immobile, 1: mobile, 2: Mixed) \n");
     for (i = 0; i < rttbl->num_spc; i++)
@@ -676,6 +649,7 @@ void ReadMinKin(FILE *fp, int num_stc, double calval, int *lno, char cmdstr[], c
             // Read type
             NextLine(fp, cmdstr, lno);
             sscanf(cmdstr, "%s = %s", optstr, label);
+            // Set the kinetic reaction model
             if (strcmp(optstr, "type") == 0)
             {
                 if (strcmp(label, "tst") == 0)
@@ -703,13 +677,15 @@ void ReadMinKin(FILE *fp, int num_stc, double calval, int *lno, char cmdstr[], c
 
             // Read rate
             NextLine(fp, cmdstr, lno);
-            sscanf(cmdstr, "%s = %lf", optstr, &kintbl->rate);
+            double dummy_val;
+            // sscanf(cmdstr, "%s = %lf", optstr, &kintbl->rate);
+            sscanf(cmdstr, "%s = %lf", optstr, &dummy_val);
             if (strcmp(optstr, "rate(25C)") == 0)
             {
-                biort_printf(VL_NORMAL, " Rate is %f\n", kintbl->rate);
+                biort_printf(VL_NORMAL, " Rate is %e\n", kintbl->rate);
 
                 kintbl->rate += calval;
-                biort_printf(VL_NORMAL, " After calibration: Rate is %f, calib->Rate = %f \n", kintbl->rate, calval);
+                biort_printf(VL_NORMAL, " After calibration: Rate is %g, calib->Rate = %g \n", kintbl->rate, calval);
             }
             else
             {

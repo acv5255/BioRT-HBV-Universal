@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "cvode\\out\\build\\x64-Debug",
+      "cvode\\out\\install\\x64-Debug"
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      clang: warning: unable to find a Visual Studio installation; try running Clang from a developer command prompt [-Wmsvc-not-found]
+      clang: error: unable to execute command: program not executable
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        Z:/build/CMakeFiles/3.27.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1158 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "Z:/build/CMakeFiles/CMakeScratch/TryCompile-dn4qh4"
+      binary: "Z:/build/CMakeFiles/CMakeScratch/TryCompile-dn4qh4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'Z:/build/CMakeFiles/CMakeScratch/TryCompile-dn4qh4'
+        
+        Run Build Command(s): C:/Users/avier/OneDrive/Documents/ninja-win/ninja.exe -v cmTC_7fbc5
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7fbc5.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_7fbc5.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_7fbc5.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_7fbc5.dir/CMakeCCompilerABI.c.obj -o cmTC_7fbc5.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7fbc5.lib -Xlinker /pdb:cmTC_7fbc5.pdb -Xlinker /version:0.0     && cd ."
+        FAILED: cmTC_7fbc5.exe 
+        cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_7fbc5.dir/CMakeCCompilerABI.c.obj -o cmTC_7fbc5.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7fbc5.lib -Xlinker /pdb:cmTC_7fbc5.pdb -Xlinker /version:0.0     && cd ."
+        lld-link: error: could not open 'msvcrtd.lib': no such file or directory\x0d
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/LLVM/bin/clang.exe"
+    directories:
+      source: "Z:/build/CMakeFiles/CMakeScratch/TryCompile-s3qlhs"
+      binary: "Z:/build/CMakeFiles/CMakeScratch/TryCompile-s3qlhs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'Z:/build/CMakeFiles/CMakeScratch/TryCompile-s3qlhs'
+        
+        Run Build Command(s): C:/Users/avier/OneDrive/Documents/ninja-win/ninja.exe -v cmTC_caa7f
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_caa7f.dir/testCCompiler.c.obj -MF CMakeFiles\\cmTC_caa7f.dir\\testCCompiler.c.obj.d -o CMakeFiles/cmTC_caa7f.dir/testCCompiler.c.obj -c Z:/build/CMakeFiles/CMakeScratch/TryCompile-s3qlhs/testCCompiler.c
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_caa7f.dir/testCCompiler.c.obj -o cmTC_caa7f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_caa7f.lib -Xlinker /pdb:cmTC_caa7f.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: cmTC_caa7f.exe 
+        cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_caa7f.dir/testCCompiler.c.obj -o cmTC_caa7f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_caa7f.lib -Xlinker /pdb:cmTC_caa7f.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'kernel32.lib': no such file or directory
+        lld-link: error: could not open 'user32.lib': no such file or directory
+        lld-link: error: could not open 'gdi32.lib': no such file or directory
+        lld-link: error: could not open 'winspool.lib': no such file or directory
+        lld-link: error: could not open 'shell32.lib': no such file or directory
+        lld-link: error: could not open 'ole32.lib': no such file or directory
+        lld-link: error: could not open 'oleaut32.lib': no such file or directory
+        lld-link: error: could not open 'uuid.lib': no such file or directory
+        lld-link: error: could not open 'comdlg32.lib': no such file or directory
+        lld-link: error: could not open 'advapi32.lib': no such file or directory\x0d
+        lld-link: error: could not open 'oldnames.lib': no such file or directory\x0d
+        lld-link: error: could not open 'msvcrtd.lib': no such file or directory\x0d
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

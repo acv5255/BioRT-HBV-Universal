@@ -115,10 +115,6 @@ typedef struct rttbl_struct
     double          adh;                    // Debye Huckel parameter
     double          bdh;                    // Debye Huckel parameter
     double          bdt;                    // Debye Huckel parameter
-    //double          sw_thld;                // threshold in soil moisture function (-)
-    //double          sw_exp;                 // exponent in soil moisture function (-)
-    //double          q10;                    // Q10 factor (-)
-    //double          n_alpha;                // n*alpha in depth function (-)
 } rttbl_struct;
 
 typedef struct chemtbl_struct
@@ -145,7 +141,6 @@ typedef struct kintbl_struct
     double          rate;                   // rate of kinetic reaction
     double          actv;                   // activation energy, used to calculate kinetic rate of reaction under
                                             // different temperatures
-    double          keq;                    // equilibrium constant
     int             ndep;                   // number of dependency
     int             dep_index[MAXDEP];      // position of species that kinetic reaction depends on
     double          dep_power[MAXDEP];      // power of dependency
@@ -235,13 +230,13 @@ void            PrintDailyResults(FILE *, int, int, int, const rttbl_struct *, c
 void            PrintHeader(FILE *, int, const rttbl_struct *, const chemtbl_struct chemtbl[]);
 double          ReactControl(const chemtbl_struct [], const kintbl_struct [], const rttbl_struct *, double, double, double,
     double, double, double, double [], chmstate_struct *);
-void            Reaction(int, int, double, const int [], const chemtbl_struct [], const kintbl_struct [],
+void            Reaction(int, int, double, const int [], const chemtbl_struct [], const kintbl_struct[],
     const rttbl_struct *, subcatch_struct []);
 void            ReadAdsorption(const char [], int, int, chemtbl_struct [], rttbl_struct *);
 void            ReadCationEchg(const char [], double, chemtbl_struct [], rttbl_struct *);
 void            ReadChem(const char [], ctrl_struct *, rttbl_struct *, chemtbl_struct [], kintbl_struct []);
-void            ReadCini(const char [], int, const chemtbl_struct *, rttbl_struct *, subcatch_struct []);
-void            ReadConc(FILE *, int, const chemtbl_struct [], int *, double [], double [], double [], double [], double[], double[]);
+void            ReadCini(const char [], int, const chemtbl_struct *, rttbl_struct *, kintbl_struct kintbl [], subcatch_struct []);
+void            ReadConc(FILE *, int, const chemtbl_struct [], int *, double [], double [], double [], double [], double[], double[], kintbl_struct kintbl[], rttbl_struct* rttbl);
 void            ReadDHParam(const char [], int, double *);
 void            ReadHbvParam(const char [], int, subcatch_struct []);
 void            ReadHbvResults(const char [], int, int *, int **, subcatch_struct [], int);

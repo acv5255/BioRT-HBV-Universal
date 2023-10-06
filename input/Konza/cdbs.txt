@@ -3382,7 +3382,7 @@ SOC
 SOC
   label = test
   type = monod
-  rate(25C) = -13.60   !eg
+  rate(25C) = -14.60   !eg
   activation = 0.0  (kcal/mole)
   dependence :
   biomass : C5H7O2N(s)

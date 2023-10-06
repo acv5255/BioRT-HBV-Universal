@@ -1,0 +1,177 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "cvode/src/sunnonlinsol/fixedpoint/libsundials_sunnonlinsolfixedpoint.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_definitions",
+			"INCLUDE_DIRECTORIES",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cvode/src/sunnonlinsol/fixedpoint/CMakeLists.txt",
+			"cvode/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1115,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BUILD_SUNDIALS_LIBRARY"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/build/cvode/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/src/sunnonlinsol/fixedpoint/."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"id" : "sundials_sunnonlinsolfixedpoint_static::@5ce80e4231764d9e8901",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "sundials_sunnonlinsolfixedpoint_static",
+	"nameOnDisk" : "libsundials_sunnonlinsolfixedpoint.a",
+	"paths" : 
+	{
+		"build" : "cvode/src/sunnonlinsol/fixedpoint",
+		"source" : "cvode/src/sunnonlinsol/fixedpoint"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cvode/src/sunnonlinsol/fixedpoint/sunnonlinsol_fixedpoint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cvode/src/sundials/sundials_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cvode/src/sundials/sundials_nvector.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cvode/src/sundials/sundials_nvector_senswrapper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cvode/src/sundials/sundials_nonlinearsolver.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

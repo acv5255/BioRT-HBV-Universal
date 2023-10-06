@@ -12,6 +12,10 @@ IF(WIN32)
     add_compile_definitions(
         /DWIN32
     )
+ELSE()
+    add_compile_definitions(
+        O2
+    )
 ENDIF()
 
 target_include_directories(
@@ -41,7 +45,6 @@ target_link_libraries(
     biort PRIVATE
     sundials_cvode
     sundials_nvecserial
-    #cvode
 )
 
 if (NOT WIN32)

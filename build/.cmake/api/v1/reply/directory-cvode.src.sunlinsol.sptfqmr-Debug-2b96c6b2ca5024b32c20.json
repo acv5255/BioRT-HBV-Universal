@@ -1,0 +1,72 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"cvode/src/sunlinsol/sptfqmr/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"cvode/src/sunlinsol/sptfqmr/libsundials_sunlinsolsptfqmr.a"
+			],
+			"targetId" : "sundials_sunlinsolsptfqmr_static::@368a5e8b8f95e5ec79a5",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/sunlinsol",
+			"paths" : 
+			[
+				"cvode/include/sunlinsol/sunlinsol_sptfqmr.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cvode/src/sunlinsol/sptfqmr",
+		"source" : "cvode/src/sunlinsol/sptfqmr"
+	}
+}

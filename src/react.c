@@ -299,21 +299,6 @@ int SolveReact(double stepsize, const chemtbl_struct chemtbl[], const kintbl_str
                 iap[i] = pow(10, iap[i]);
                 temp_keq = pow(10, rttbl->keq_kin[i]);
 
-#if NOT_YET_IMPLEMENTED
-                if (iap[i] < temp_keq)
-                {
-                    rct_drct[i] = 1.0;
-                }
-                else if (iap[i] > temp_keq)
-                {
-                    rct_drct[i] = -1.0;
-                }
-                else
-                {
-                    rct_drct[i] = 0.0;
-                }
-#endif
-
                 dependency[i] = 0.0;
                 for (k = 0; k < kintbl[i].ndep; k++)
                 {

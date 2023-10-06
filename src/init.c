@@ -21,7 +21,6 @@ void InitChem(const char dir[], int nsub, const calib_struct *calib, const ctrl_
         for (kspc = 0; kspc < rttbl->num_stc; kspc++)
         {
             // Apply calibration
-            //subcatch[ksub].chms[SNOW].ssa[kspc] *= (chemtbl[kspc].itype == MINERAL) ? calib->ssa : 1.0;   // 2021-05-07
             subcatch[ksub].chms[UZ].ssa[kspc] *= (chemtbl[kspc].itype == MINERAL) ? calib->ssa : 1.0;
             subcatch[ksub].chms[LZ].ssa[kspc] *= (chemtbl[kspc].itype == MINERAL) ? calib->ssa : 1.0;
 
