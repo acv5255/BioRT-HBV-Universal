@@ -7,7 +7,7 @@ Id flags:
 The output was:
 0
 MSBuild version 17.6.3+07e294721 for .NET Framework
-Build started 10/8/2023 5:23:57 PM.
+Build started 10/8/2023 5:34:43 PM.
 
 Project "S:\Github\BioRT-HBV-Universal\build\CMakeFiles\3.22.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
@@ -34,7 +34,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:03.77
+Time Elapsed 00:00:03.71
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -46,65 +46,65 @@ The C compiler identification is MSVC, found in "S:/Github/BioRT-HBV-Universal/b
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: S:/Github/BioRT-HBV-Universal/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fcb44.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a826b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fcb44.dir\Debug\\" /Fd"cmTC_fcb44.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c"
-  cmTC_fcb44.vcxproj -> S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\Debug\cmTC_fcb44.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a826b.dir\Debug\\" /Fd"cmTC_a826b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c"
+  cmTC_a826b.vcxproj -> S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\Debug\cmTC_a826b.exe
 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: S:/Github/BioRT-HBV-Universal/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9d5a1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ab6b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d5a1.dir\Debug\\" /Fd"cmTC_9d5a1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
-  cmTC_9d5a1.vcxproj -> S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\Debug\cmTC_9d5a1.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ab6b5.dir\Debug\\" /Fd"cmTC_ab6b5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_ab6b5.vcxproj -> S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\Debug\cmTC_ab6b5.exe
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: S:/Github/BioRT-HBV-Universal/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5ba15.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_30eac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ba15.dir\Debug\\" /Fd"cmTC_5ba15.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
-  cmTC_5ba15.vcxproj -> S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\Debug\cmTC_5ba15.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_30eac.dir\Debug\\" /Fd"cmTC_30eac.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_30eac.vcxproj -> S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\Debug\cmTC_30eac.exe
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: S:/Github/BioRT-HBV-Universal/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fbdfe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bd070.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fbdfe.dir\Debug\\" /Fd"cmTC_fbdfe.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
-  cmTC_fbdfe.vcxproj -> S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\Debug\cmTC_fbdfe.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd070.dir\Debug\\" /Fd"cmTC_bd070.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_bd070.vcxproj -> S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\Debug\cmTC_bd070.exe
 
 
 
 Determining size of int64_t passed with the following output:
 Change Dir: S:/Github/BioRT-HBV-Universal/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e8fec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0f936.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   HAS_int64_t.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8fec.dir\Debug\\" /Fd"cmTC_e8fec.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CheckTypeSize\HAS_int64_t.c"
-  cmTC_e8fec.vcxproj -> S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\Debug\cmTC_e8fec.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f936.dir\Debug\\" /Fd"cmTC_0f936.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CheckTypeSize\HAS_int64_t.c"
+  cmTC_0f936.vcxproj -> S:\Github\BioRT-HBV-Universal\build\CMakeFiles\CMakeTmp\Debug\cmTC_0f936.exe
 
 
 
