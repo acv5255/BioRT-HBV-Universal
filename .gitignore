@@ -55,6 +55,10 @@ advisor
 
 # VS Code
 /.vscode
+/.vs
 
 # Mac OS
 .DS_Store
+
+# Build directory
+/out
