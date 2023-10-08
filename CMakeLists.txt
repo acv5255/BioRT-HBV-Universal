@@ -6,5 +6,9 @@ project(
     LANGUAGES C    
 )
 
+if (WIN32)
+    add_compile_options(/MT /w)
+endif()
+
 add_subdirectory(cvode)
 add_subdirectory(src)
