@@ -68,12 +68,12 @@
  * If it was decided that generic math functions can be used, then
  *     #define SUNDIALS_USE_GENERIC_MATH
  */
-#define SUNDIALS_USE_GENERIC_MATH
+/* #undef SUNDIALS_USE_GENERIC_MATH */
 
 /* Use POSIX timers if available.
  *     #define SUNDIALS_HAVE_POSIX_TIMERS
  */
-#define SUNDIALS_HAVE_POSIX_TIMERS
+/* #undef SUNDIALS_HAVE_POSIX_TIMERS */
 
 /* Blas/Lapack available
  * If working libraries for Blas/lapack support were found, then

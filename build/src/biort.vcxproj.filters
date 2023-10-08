@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\custom_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\lookup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\optparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\react.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\read_chem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\read_cini.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\read_hbv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\read_param.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\read_precipchem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\read_soil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\set_numexp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\speciation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\time_func.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\transpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\util_func.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5708A0E6-32B9-3A19-B72A-D1DEB99E01F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

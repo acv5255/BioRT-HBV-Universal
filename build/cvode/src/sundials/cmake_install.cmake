@@ -1,8 +1,8 @@
-# Install script for directory: /home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/src/sundials
+# Install script for directory: C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/src/sundials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/BioRT")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -27,19 +27,9 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/llvm-objdump-15")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -50,28 +40,28 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sundials" TYPE FILE FILES
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_band.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_dense.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_direct.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_fnvector.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_iterative.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_linearsolver.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_math.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_matrix.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_mpi.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_mpi_types.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_nonlinearsolver.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_mpi.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_mpi_types.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_nvector.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_pcg.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_sparse.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_spbcgs.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_spfgmr.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_spgmr.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_sptfqmr.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_types.h"
-    "/home/andrew/Documents/Research/Projects/BioRT-HBV-Universal/cvode/include/sundials/sundials_version.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_band.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_dense.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_direct.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_fnvector.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_iterative.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_linearsolver.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_math.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_matrix.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_mpi.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_mpi_types.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_nonlinearsolver.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_mpi.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_mpi_types.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_nvector.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_pcg.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_sparse.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_spbcgs.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_spfgmr.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_spgmr.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_sptfqmr.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_types.h"
+    "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sundials/sundials_version.h"
     )
 endif()
 

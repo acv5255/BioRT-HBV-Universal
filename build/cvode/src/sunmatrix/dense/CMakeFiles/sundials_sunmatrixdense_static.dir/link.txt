@@ -1,2 +1,0 @@
-/usr/bin/llvm-ar-15 qc libsundials_sunmatrixdense.a CMakeFiles/sundials_sunmatrixdense_static.dir/sunmatrix_dense.c.o CMakeFiles/sundials_sunmatrixdense_static.dir/__/__/sundials/sundials_nvector.c.o CMakeFiles/sundials_sunmatrixdense_static.dir/__/__/sundials/sundials_matrix.c.o CMakeFiles/sundials_sunmatrixdense_static.dir/__/__/sundials/sundials_math.c.o
-/usr/bin/llvm-ranlib-15 libsundials_sunmatrixdense.a

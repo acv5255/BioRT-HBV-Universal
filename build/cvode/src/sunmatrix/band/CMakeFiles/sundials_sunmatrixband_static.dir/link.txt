@@ -1,2 +1,0 @@
-/usr/bin/llvm-ar-15 qc libsundials_sunmatrixband.a CMakeFiles/sundials_sunmatrixband_static.dir/sunmatrix_band.c.o CMakeFiles/sundials_sunmatrixband_static.dir/__/__/sundials/sundials_nvector.c.o CMakeFiles/sundials_sunmatrixband_static.dir/__/__/sundials/sundials_matrix.c.o CMakeFiles/sundials_sunmatrixband_static.dir/__/__/sundials/sundials_math.c.o
-/usr/bin/llvm-ranlib-15 libsundials_sunmatrixband.a

@@ -1,0 +1,10 @@
+^C:\USERS\AVIER\ONEDRIVE\DOCUMENTS\GITHUB\BIORT-HBV-UNIVERSAL\BUILD\CMAKEFILES\A5761A6DA3A6EAB0DB8650ACE2FE3B54\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal -BC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/BioRT.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

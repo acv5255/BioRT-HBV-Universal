@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76ECBD59-6B73-3F10-830E-D527591C79E9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal -BC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build --check-stamp-file C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddF2003InterfaceLibrary.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddTest.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddTestInstall.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsCMakeMacros.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsDeprecated.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsIndexSize.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsPOSIXTimers.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsXSDK.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include\sundials\sundials_config.in;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include\sundials\sundials_fconfig.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal -BC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build --check-stamp-file C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddF2003InterfaceLibrary.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddTest.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddTestInstall.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsCMakeMacros.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsDeprecated.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsIndexSize.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsPOSIXTimers.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsXSDK.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include\sundials\sundials_config.in;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include\sundials\sundials_fconfig.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal -BC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build --check-stamp-file C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddF2003InterfaceLibrary.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddTest.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddTestInstall.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsCMakeMacros.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsDeprecated.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsIndexSize.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsPOSIXTimers.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsXSDK.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include\sundials\sundials_config.in;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include\sundials\sundials_fconfig.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal -BC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build --check-stamp-file C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\GNUInstallDirs.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddF2003InterfaceLibrary.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddTest.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsAddTestInstall.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsCMakeMacros.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsDeprecated.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsIndexSize.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsPOSIXTimers.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\config\SundialsXSDK.cmake;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include\sundials\sundials_config.in;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include\sundials\sundials_fconfig.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\ZERO_CHECK.vcxproj">
+      <Project>{50CCECA3-DF8D-3197-B193-273D7B20FABA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\cvode\sundials_cvode_static.vcxproj">
+      <Project>{907691D5-C38B-3216-8CD3-8ECA234155AD}</Project>
+      <Name>sundials_cvode_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\nvector\serial\sundials_nvecserial_static.vcxproj">
+      <Project>{A977C8BE-765C-31C5-8153-C936465FFEF6}</Project>
+      <Name>sundials_nvecserial_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunlinsol\band\sundials_sunlinsolband_static.vcxproj">
+      <Project>{BA269B13-6AEA-3444-A466-C06791A1EAD4}</Project>
+      <Name>sundials_sunlinsolband_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunlinsol\dense\sundials_sunlinsoldense_static.vcxproj">
+      <Project>{F452237E-BD95-3D0F-8744-07844D5FDA0B}</Project>
+      <Name>sundials_sunlinsoldense_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunlinsol\pcg\sundials_sunlinsolpcg_static.vcxproj">
+      <Project>{3792A8FB-8954-3B59-B086-53CD8E4190B9}</Project>
+      <Name>sundials_sunlinsolpcg_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunlinsol\spbcgs\sundials_sunlinsolspbcgs_static.vcxproj">
+      <Project>{C31020E0-1FC3-3D55-89D0-5C60A16F1B24}</Project>
+      <Name>sundials_sunlinsolspbcgs_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunlinsol\spfgmr\sundials_sunlinsolspfgmr_static.vcxproj">
+      <Project>{5B0722ED-2EC9-37DF-8C59-6C3CC9D470F0}</Project>
+      <Name>sundials_sunlinsolspfgmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunlinsol\spgmr\sundials_sunlinsolspgmr_static.vcxproj">
+      <Project>{E17B4AEF-B6FF-3B40-A197-8E2EDE8D7ABA}</Project>
+      <Name>sundials_sunlinsolspgmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_static.vcxproj">
+      <Project>{0F90F71F-BFF3-34EC-84A7-D75BB28BA208}</Project>
+      <Name>sundials_sunlinsolsptfqmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\sundials_sunmatrixband_static.vcxproj">
+      <Project>{BE7247AB-EF3B-319D-9579-FAA2C6B48DEF}</Project>
+      <Name>sundials_sunmatrixband_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\dense\sundials_sunmatrixdense_static.vcxproj">
+      <Project>{83A4F236-02AB-33B3-81A5-EA68B52A3EEE}</Project>
+      <Name>sundials_sunmatrixdense_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\sparse\sundials_sunmatrixsparse_static.vcxproj">
+      <Project>{1ED58118-C9E9-3819-9E62-562698B460B8}</Project>
+      <Name>sundials_sunmatrixsparse_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunnonlinsol\fixedpoint\sundials_sunnonlinsolfixedpoint_static.vcxproj">
+      <Project>{28109881-55F0-3EE9-B779-F4601D02B698}</Project>
+      <Name>sundials_sunnonlinsolfixedpoint_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_static.vcxproj">
+      <Project>{9806E775-62CD-3EEE-A8DA-CDCA9E8E353D}</Project>
+      <Name>sundials_sunnonlinsolnewton_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
