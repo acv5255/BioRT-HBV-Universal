@@ -1,0 +1,5 @@
+S:\Github\BioRT-HBV-Universal\cvode\src\sunnonlinsol\newton\sunnonlinsol_newton.c;S:\Github\BioRT-HBV-Universal\build\cvode\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_static.dir\Release\sunnonlinsol_newton.obj
+S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_math.c;S:\Github\BioRT-HBV-Universal\build\cvode\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_static.dir\Release\sundials_math.obj
+S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_nvector.c;S:\Github\BioRT-HBV-Universal\build\cvode\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_static.dir\Release\sundials_nvector.obj
+S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_nvector_senswrapper.c;S:\Github\BioRT-HBV-Universal\build\cvode\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_static.dir\Release\sundials_nvector_senswrapper.obj
+S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_nonlinearsolver.c;S:\Github\BioRT-HBV-Universal\build\cvode\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_static.dir\Release\sundials_nonlinearsolver.obj

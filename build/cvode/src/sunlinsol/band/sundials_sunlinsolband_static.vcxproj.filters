@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunlinsol\band\sunlinsol_band.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunlinsol\band\sunlinsol_band.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_linearsolver.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_linearsolver.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_band.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_band.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunlinsol\band\CMakeLists.txt" />
+    <CustomBuild Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunlinsol\band\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5708A0E6-32B9-3A19-B72A-D1DEB99E01F8}</UniqueIdentifier>
+      <UniqueIdentifier>{9E58EB40-A2E4-3F9A-AF73-21F3C4BB1150}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

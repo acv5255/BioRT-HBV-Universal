@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/src/sunlinsol
+# Install script for directory: S:/Github/BioRT-HBV-Universal/cvode/src/sunlinsol
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/band/cmake_install.cmake")
-  include("C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/dense/cmake_install.cmake")
-  include("C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/pcg/cmake_install.cmake")
-  include("C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spbcgs/cmake_install.cmake")
-  include("C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spfgmr/cmake_install.cmake")
-  include("C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spgmr/cmake_install.cmake")
-  include("C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/sptfqmr/cmake_install.cmake")
+  include("S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/band/cmake_install.cmake")
+  include("S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/dense/cmake_install.cmake")
+  include("S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/pcg/cmake_install.cmake")
+  include("S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spbcgs/cmake_install.cmake")
+  include("S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spfgmr/cmake_install.cmake")
+  include("S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spgmr/cmake_install.cmake")
+  include("S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/sptfqmr/cmake_install.cmake")
 
 endif()
 

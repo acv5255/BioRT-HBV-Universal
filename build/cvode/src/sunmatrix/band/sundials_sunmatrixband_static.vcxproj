@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BE7247AB-EF3B-319D-9579-FAA2C6B48DEF}</ProjectGuid>
+    <ProjectGuid>{D1D7E39C-C400-3503-8214-0213F3E9962F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>sundials_sunmatrixband_static</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sundials_sunmatrixband_static.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sundials_sunmatrixband</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sundials_sunmatrixband_static.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sundials_sunmatrixband</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sundials_sunmatrixband_static.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sundials_sunmatrixband</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sundials_sunmatrixband_static.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sundials_sunmatrixband</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;BUILD_SUNDIALS_LIBRARY;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_SUNDIALS_LIBRARY;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_SUNDIALS_LIBRARY;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_SUNDIALS_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\include;C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>S:\Github\BioRT-HBV-Universal\cvode\include;S:\Github\BioRT-HBV-Universal\build\cvode\include;S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +208,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\CMakeLists.txt">
+    <CustomBuild Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/src/sunmatrix/band/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule S:/Github/BioRT-HBV-Universal/cvode/src/sunmatrix/band/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal -BC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build --check-stamp-file C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunmatrix/band/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SS:/Github/BioRT-HBV-Universal -BS:/Github/BioRT-HBV-Universal/build --check-stamp-file S:/Github/BioRT-HBV-Universal/build/cvode/src/sunmatrix/band/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/src/sunmatrix/band/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule S:/Github/BioRT-HBV-Universal/cvode/src/sunmatrix/band/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal -BC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build --check-stamp-file C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunmatrix/band/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SS:/Github/BioRT-HBV-Universal -BS:/Github/BioRT-HBV-Universal/build --check-stamp-file S:/Github/BioRT-HBV-Universal/build/cvode/src/sunmatrix/band/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +234,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/src/sunmatrix/band/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule S:/Github/BioRT-HBV-Universal/cvode/src/sunmatrix/band/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal -BC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build --check-stamp-file C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunmatrix/band/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SS:/Github/BioRT-HBV-Universal -BS:/Github/BioRT-HBV-Universal/build --check-stamp-file S:/Github/BioRT-HBV-Universal/build/cvode/src/sunmatrix/band/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/src/sunmatrix/band/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule S:/Github/BioRT-HBV-Universal/cvode/src/sunmatrix/band/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal -BC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build --check-stamp-file C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunmatrix/band/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SS:/Github/BioRT-HBV-Universal -BS:/Github/BioRT-HBV-Universal/build --check-stamp-file S:/Github/BioRT-HBV-Universal/build/cvode/src/sunmatrix/band/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,19 +260,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\sunmatrix\band\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\sunmatrix_band.c" />
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_nvector.c" />
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_matrix.c" />
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_math.c" />
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\sunmatrix_band.c" />
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_nvector.c" />
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_matrix.c" />
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_math.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\ZERO_CHECK.vcxproj">
-      <Project>{50CCECA3-DF8D-3197-B193-273D7B20FABA}</Project>
+    <ProjectReference Include="S:\Github\BioRT-HBV-Universal\build\ZERO_CHECK.vcxproj">
+      <Project>{98F27CE3-C1EA-3ED7-BC76-5EB62A2FE16E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

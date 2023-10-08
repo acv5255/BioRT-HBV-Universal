@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/src/sunnonlinsol/fixedpoint
+# Install script for directory: S:/Github/BioRT-HBV-Universal/cvode/src/sunnonlinsol/fixedpoint
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,25 +32,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   MESSAGE("
 Install SUNNONLINSOL_FIXEDPOINT
 ")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/fixedpoint/Debug/sundials_sunnonlinsolfixedpoint.lib")
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/fixedpoint/Release/sundials_sunnonlinsolfixedpoint.lib")
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/fixedpoint/MinSizeRel/sundials_sunnonlinsolfixedpoint.lib")
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/fixedpoint/RelWithDebInfo/sundials_sunnonlinsolfixedpoint.lib")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "S:/Github/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/fixedpoint/Debug/sundials_sunnonlinsolfixedpoint.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "S:/Github/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/fixedpoint/Release/sundials_sunnonlinsolfixedpoint.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "S:/Github/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/fixedpoint/MinSizeRel/sundials_sunnonlinsolfixedpoint.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "S:/Github/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/fixedpoint/RelWithDebInfo/sundials_sunnonlinsolfixedpoint.lib")
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sunnonlinsol" TYPE FILE FILES "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sunnonlinsol/sunnonlinsol_fixedpoint.h")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sunnonlinsol" TYPE FILE FILES "S:/Github/BioRT-HBV-Universal/cvode/include/sunnonlinsol/sunnonlinsol_fixedpoint.h")
 endif()
 

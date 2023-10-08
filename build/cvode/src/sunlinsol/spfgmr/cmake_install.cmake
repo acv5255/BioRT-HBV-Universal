@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/src/sunlinsol/spfgmr
+# Install script for directory: S:/Github/BioRT-HBV-Universal/cvode/src/sunlinsol/spfgmr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,25 +32,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   MESSAGE("
 Install SUNLINSOL_SPFGMR
 ")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spfgmr/Debug/sundials_sunlinsolspfgmr.lib")
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spfgmr/Release/sundials_sunlinsolspfgmr.lib")
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spfgmr/MinSizeRel/sundials_sunlinsolspfgmr.lib")
-  elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spfgmr/RelWithDebInfo/sundials_sunlinsolspfgmr.lib")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spfgmr/Debug/sundials_sunlinsolspfgmr.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spfgmr/Release/sundials_sunlinsolspfgmr.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spfgmr/MinSizeRel/sundials_sunlinsolspfgmr.lib")
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "S:/Github/BioRT-HBV-Universal/build/cvode/src/sunlinsol/spfgmr/RelWithDebInfo/sundials_sunlinsolspfgmr.lib")
   endif()
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sunlinsol" TYPE FILE FILES "C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/include/sunlinsol/sunlinsol_spfgmr.h")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sunlinsol" TYPE FILE FILES "S:/Github/BioRT-HBV-Universal/cvode/include/sunlinsol/sunlinsol_spfgmr.h")
 endif()
 

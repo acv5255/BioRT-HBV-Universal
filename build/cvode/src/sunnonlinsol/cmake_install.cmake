@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/cvode/src/sunnonlinsol
+# Install script for directory: S:/Github/BioRT-HBV-Universal/cvode/src/sunnonlinsol
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/newton/cmake_install.cmake")
-  include("C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/fixedpoint/cmake_install.cmake")
+  include("S:/Github/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/newton/cmake_install.cmake")
+  include("S:/Github/BioRT-HBV-Universal/build/cvode/src/sunnonlinsol/fixedpoint/cmake_install.cmake")
 
 endif()
 

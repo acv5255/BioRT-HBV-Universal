@@ -1,0 +1,72 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"cvode/src/nvector/serial/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"cvode/src/nvector/serial/sundials_nvecserial.lib"
+			],
+			"targetId" : "sundials_nvecserial_static::@211ed57c21967fe2e803",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/nvector",
+			"paths" : 
+			[
+				"cvode/include/nvector/nvector_serial.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "cvode/src/nvector/serial",
+		"source" : "cvode/src/nvector/serial"
+	}
+}

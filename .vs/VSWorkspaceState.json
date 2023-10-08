@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     ""
   ],
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false,
   "OutputFoldersPerTargetSystem": {
     "Local Machine": [
-      "out\\build\\Release",
+      "build\\Release",
       "out\\install\\Release"
     ]
   }

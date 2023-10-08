@@ -1,0 +1,10 @@
+^S:\GITHUB\BIORT-HBV-UNIVERSAL\CVODE\SRC\NVECTOR\SERIAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SS:/Github/BioRT-HBV-Universal -BS:/Github/BioRT-HBV-Universal/build --check-stamp-file S:/Github/BioRT-HBV-Universal/build/cvode/src/nvector/serial/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

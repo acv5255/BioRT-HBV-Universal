@@ -1,6 +1,6 @@
-^C:\USERS\AVIER\ONEDRIVE\DOCUMENTS\GITHUB\BIORT-HBV-UNIVERSAL\CMAKELISTS.TXT
+^S:\GITHUB\BIORT-HBV-UNIVERSAL\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal -BC:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build --check-stamp-file C:/Users/avier/OneDrive/Documents/GitHub/BioRT-HBV-Universal/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SS:/Github/BioRT-HBV-Universal -BS:/Github/BioRT-HBV-Universal/build --check-stamp-file S:/Github/BioRT-HBV-Universal/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

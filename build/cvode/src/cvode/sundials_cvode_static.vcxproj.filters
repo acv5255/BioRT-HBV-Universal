@@ -1,112 +1,112 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\cvode\cvode.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\cvode\cvode.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\cvode\cvode_bandpre.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\cvode\cvode_bandpre.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\cvode\cvode_bbdpre.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\cvode\cvode_bbdpre.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\cvode\cvode_diag.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\cvode\cvode_diag.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\cvode\cvode_direct.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\cvode\cvode_direct.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\cvode\cvode_io.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\cvode\cvode_io.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\cvode\cvode_ls.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\cvode\cvode_ls.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\cvode\cvode_nls.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\cvode\cvode_nls.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\cvode\cvode_spils.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\cvode\cvode_spils.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_nvector.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_nvector.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_matrix.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_matrix.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_linearsolver.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_linearsolver.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_nonlinearsolver.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_nonlinearsolver.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_math.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_math.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_band.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_band.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_dense.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_dense.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_direct.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_direct.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_iterative.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_iterative.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_version.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_version.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sundials\sundials_nvector_senswrapper.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sundials\sundials_nvector_senswrapper.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\nvector\serial\nvector_serial.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\nvector\serial\nvector_serial.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\band\sunmatrix_band.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\band\sunmatrix_band.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\dense\sunmatrix_dense.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\dense\sunmatrix_dense.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunmatrix\sparse\sunmatrix_sparse.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunmatrix\sparse\sunmatrix_sparse.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunlinsol\band\sunlinsol_band.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunlinsol\band\sunlinsol_band.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunlinsol\dense\sunlinsol_dense.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunlinsol\dense\sunlinsol_dense.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunlinsol\spbcgs\sunlinsol_spbcgs.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunlinsol\spbcgs\sunlinsol_spbcgs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunlinsol\spfgmr\sunlinsol_spfgmr.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunlinsol\spfgmr\sunlinsol_spfgmr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunlinsol\spgmr\sunlinsol_spgmr.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunlinsol\spgmr\sunlinsol_spgmr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunlinsol\sptfqmr\sunlinsol_sptfqmr.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunlinsol\sptfqmr\sunlinsol_sptfqmr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunlinsol\pcg\sunlinsol_pcg.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunlinsol\pcg\sunlinsol_pcg.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunnonlinsol\newton\sunnonlinsol_newton.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunnonlinsol\newton\sunnonlinsol_newton.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\sunnonlinsol\fixedpoint\sunnonlinsol_fixedpoint.c">
+    <ClCompile Include="S:\Github\BioRT-HBV-Universal\cvode\src\sunnonlinsol\fixedpoint\sunnonlinsol_fixedpoint.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\cvode\src\cvode\CMakeLists.txt" />
+    <CustomBuild Include="S:\Github\BioRT-HBV-Universal\cvode\src\cvode\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5708A0E6-32B9-3A19-B72A-D1DEB99E01F8}</UniqueIdentifier>
+      <UniqueIdentifier>{9E58EB40-A2E4-3F9A-AF73-21F3C4BB1150}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

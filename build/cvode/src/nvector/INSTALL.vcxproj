@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9C92D50B-C62F-323E-9993-06458B085392}</ProjectGuid>
+    <ProjectGuid>{631B64BA-21C6-3C9C-9100-2D13553E87C7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>INSTALL</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -125,8 +125,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\CMakeFiles\b0aa32aca9fee41fa44abe6cf390d11c\INSTALL_force.rule">
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+    <CustomBuild Include="S:\Github\BioRT-HBV-Universal\build\CMakeFiles\e34268e05da93635a4c5ae3b38e7783f\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -138,10 +137,9 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\nvector\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\nvector\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 cd .
@@ -153,10 +151,9 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\nvector\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\nvector\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
 cd .
@@ -168,10 +165,9 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\nvector\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\nvector\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
 cd .
@@ -183,20 +179,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\src\nvector\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">S:\Github\BioRT-HBV-Universal\build\cvode\src\nvector\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\ZERO_CHECK.vcxproj">
-      <Project>{50CCECA3-DF8D-3197-B193-273D7B20FABA}</Project>
+    <ProjectReference Include="S:\Github\BioRT-HBV-Universal\build\ZERO_CHECK.vcxproj">
+      <Project>{98F27CE3-C1EA-3ED7-BC76-5EB62A2FE16E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\avier\OneDrive\Documents\GitHub\BioRT-HBV-Universal\build\cvode\ALL_BUILD.vcxproj">
-      <Project>{76ECBD59-6B73-3F10-830E-D527591C79E9}</Project>
+    <ProjectReference Include="S:\Github\BioRT-HBV-Universal\build\cvode\ALL_BUILD.vcxproj">
+      <Project>{99C1F07F-9BA1-3201-B2A0-BD91FF5AACF4}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
