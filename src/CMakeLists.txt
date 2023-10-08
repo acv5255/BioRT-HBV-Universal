@@ -8,15 +8,6 @@ add_executable(
 )
 
 
-if(WIN32)
-	if(MSVC)
-		add_compile_definitions(/DWIN32)
-		target_link_directories(biort PRIVATE /MT)
-	else()
-		add_compile_definitions(-DWIN32)
-	endif()
-endif()
-
 IF(WIN32)
     add_compile_definitions(
         /DWIN32
@@ -45,6 +36,7 @@ ENDIF()
 if(WIN32)
 target_link_directories(
     biort PRIVATE
+	/MT
     ${BioRT_SOURCE_DIR}/build/cvode/src/cvode/Release
     ${BioRT_SOURCE_DIR}/build/cvode/src/nvector/serial/Release
 )
@@ -53,10 +45,10 @@ ENDIF()
 if (WIN32)
 	target_link_libraries(
 	    biort PRIVATE
+        ucrt
+	    vcruntime
 	    sundials_cvode
 	    sundials_nvecserial
-	    ucrt
-	    vcruntime
 	)
 else()
 	target_link_libraries(
